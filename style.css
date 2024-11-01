@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    text-align: center; /* Center text inside the container */
+}
+
+button {
+    padding: 10px 20px; /* Button size */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+video {
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Max width to keep it reasonable */
+    border: 2px solid #ccc; /* Border around video */
+    margin-top: 20px; /* Space above video */
+}
